@@ -1,0 +1,11 @@
+{
+  "name": "overlap-ranges-values",
+  "version": "1.0.0",
+  "description": "Check Overlap between values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
