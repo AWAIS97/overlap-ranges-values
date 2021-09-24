@@ -5,10 +5,10 @@ module.export.validateRangesValues = (newRange, preRange) => {
   let p_end = parseFloat(preRange.endValue);
 
   if (n_start <= p_start && p_start <= n_end) return true;
-  // new starts in old
+
   if (n_start <= p_end && p_end <= n_end) return true;
-  // new ends in old || new in old
+
   if (p_start < n_start && n_end < p_end) return true;
-  // old in new
+
   return false;
 };
